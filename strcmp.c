@@ -12,7 +12,7 @@ main()
 	printf("\nEnter second name:");
 	scanf("%s",sname);
 	x=strcmp(fname,sname);
-	if(x==1)
+	if(x==0)
 		printf("\nThe strings are same");
 	else
 		printf("\nThe strings are not same");
