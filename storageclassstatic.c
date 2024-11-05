@@ -13,12 +13,12 @@ sample()
 {
 	int x=20;  //storage class auto
 	x+=10;
-	printf("%d",x);
+	printf("%d\n",x);
 }
 sample1()
 {
 	static int x=20;  //storage class static
 	x+=10;
-	printf("%d",x);
+	printf("%d\n",x);
 }
 
