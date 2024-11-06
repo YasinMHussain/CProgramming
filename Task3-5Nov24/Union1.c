@@ -14,14 +14,14 @@ main()
 {
 	union car c;
 	printf ("\nEnter car name:");
-	scanf("%s",&c.name);
+	scanf("%s",c.name);
 	printf ("\nEnter car price:");
-	scanf("%s",&c.price);
+	scanf("%f",&c.price);
 	display(c);
 }
 display(union car c)
 {
 	printf("\nCar Name:%s",c.name);
-	printf("\nCar Price:%s",c.price);
+	printf("\nCar Price:%f",c.price);
 	return(0);
 }
