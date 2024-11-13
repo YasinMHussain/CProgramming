@@ -26,11 +26,11 @@ main()
         printf("\nEnter details for employee %d:", i + 1);
         printf("\nEmployee ID: ");
         scanf("%d", &emp[i].id);
-        printf("\nName: ");
+        printf("\nEmployee Name: ");
         scanf(" %[^\n]s", emp[i].name);  
-        printf("\nAge:");
+        printf("\nEmployee Age:");
         scanf("%d", &emp[i].age);
-        printf("\nSalary:");
+        printf("\nEmployer Salary:");
         scanf("%f", &emp[i].salary);
     }
 
