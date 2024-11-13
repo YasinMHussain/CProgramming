@@ -15,7 +15,7 @@ main()
 {
     int i;
     struct Student std;
-    float total = 0, average;
+    float total = 0, avg;
 
     printf("\nEnter roll number: ");
     scanf("%d", &std.roll);
@@ -29,13 +29,13 @@ main()
         total += std.marks[i];
     }
 
-    average = total / 3;
+    avg = total / 3;
 
     printf("\nStudent Details:\n");
     printf("\nRoll Number: %d", std.roll);
     printf("\nName: %s", std.name);
     printf("\nTotal Marks: %.2f", total);
-    printf("\nAverage Marks: %.2f", average);
+    printf("\nAverage Marks: %.2f", avg);
 
     return 0;
 }
