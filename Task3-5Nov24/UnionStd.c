@@ -14,16 +14,15 @@ main()
     union Data data;
 
     printf("\nEnter Grade:");
-	scanf("%c",&data.grade);
-    
-    printf("\n Enter Student ID:", data.studentID);
-	scanf("%d",&data.studentID);
-
+    scanf("%c",&data.grade);
+    printf("\n%c",data.grade);
+	
+    printf("\n Enter Student ID:");
+    scanf("%d",&data.studentID);
+    printf("\n%d",data.studentID);
+	
     printf("\nEnter CGPA:");
     scanf("%f",&data.cgpa);
-    
-    printf("\n%c",data.grade);
-    printf("\n%d",data.studentID);
     printf("\n%d",data.cgpa);
 
     return 0;
