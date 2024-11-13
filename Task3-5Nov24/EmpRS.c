@@ -27,7 +27,7 @@ main()
         printf("\nEmployee ID: ");
         scanf("%d", &emp[i].id);
         printf("\nEmployee Name: ");
-        scanf(" %[^\n]s", emp[i].name);  
+        scanf(" %s", emp[i].name);  
         printf("\nEmployee Age:");
         scanf("%d", &emp[i].age);
         printf("\nEmployer Salary:");
@@ -35,7 +35,7 @@ main()
     }
 
     printf("\nEmployee Records:");
-    printf("ID\tName\t\tAge\tSalary\n");
+    printf("\n\tID\tName\t\tAge\tSalary\n");
     for (i = 0; i < n; i++) 
 	{
         printf("\n\t%d\t%-15s\t%d\t%.2f\n", emp[i].id, emp[i].name, emp[i].age, emp[i].salary);
