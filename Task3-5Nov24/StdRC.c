@@ -13,17 +13,17 @@ struct Student
 
 main() 
 {
-	int i;
+    int i;
     struct Student std;
     float total = 0, average;
 
     printf("\nEnter roll number: ");
     scanf("%d", &std.rollNumber);
     printf("\nEnter name: ");
-    scanf(" %[^\n]s", std.name);
+    scanf(" %s", std.name);
 
     for (i = 0; i < 3; i++) 
-	{
+    {
         printf("\nEnter marks for subject %d: ", i + 1);
         scanf("%f", &std.marks[i]);
         total += std.marks[i];
